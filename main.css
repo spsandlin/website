@@ -1,0 +1,128 @@
+.main_images{
+	
+	width:100%;
+	height:auto;	
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+html{
+    height:100%;
+    background-color:#000;
+}
+body{
+	/*background: url(about_menu.png) no-repeat center center fixed, url(guitar_menu.png) no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    height:100%;
+    margin:0px;
+}
+#wrapper {
+    margin-right: 20%;
+    margin-left: 20%;
+    height:100%;
+}
+#content {
+    float: left;
+    width: 100%;
+    height:100%;
+
+    background-color: #CCC;
+}
+#sidebarleft{
+    float: left;
+    width:10%;
+    height:100%;
+    background-color:#222;
+}
+.linkPicture{
+    width:100%;
+    height:30%;
+    border-style: solid;
+    border-color:#000;
+    border-width:2px;
+    margin-left:-2px;
+    margin-right:-2px;
+    background-color:#11E;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:relative;
+
+}
+.header{
+    /*font-family: 'Josefin Slab', serif, bold;*/
+    width:100%;
+    height:4%;
+    font-family: 'Raleway', sans-serif;
+    font-size:2.5vh;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align: center;
+    position:fixed;
+    z-index: 4;
+    margin-left:-2px;
+    margin-right:-2px;
+    background: #222;
+
+    
+}
+.menu{	
+    /*font-family: 'Josefin Slab', serif, bold;*/
+    font-family: 'Raleway', sans-serif;
+    font-size:2.5vw;
+    font-weight:400;
+    color:#FFFFFF;
+    position:absolute;
+    bottom:0px;
+    text-align: center;
+    width:100%;
+    margin-left:-2px;
+    margin-right:-2px;
+    background: rgba(0,0,0,0.75);
+    
+
+}
+#lp1{
+    background-image:url('music.jpg');
+}
+
+#lp2{
+        background-image:url('level_end_portal.png');
+
+}
+#lp3{
+    background-image:url('me.jpg');
+}
+#lp4{}
+#lp5{
+    background-image:url('blog.jpg');
+}
+#sidebarright1 {
+  float: right;
+  width: 16.7%;
+  height:100%;
+
+  margin-right: -16.7%;
+  background-color:#222;
+}
+#sidebarright2{
+    float:right;
+    width:16.7%;
+    height:100%;
+
+    margin-right:-33.4%;
+    background-color:#222;
+}
+#cleared {
+  clear: both;
+}
+img[usemap] {
+		border: none;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+}
